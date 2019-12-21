@@ -5,7 +5,7 @@
  * @SchoolStatus : 2016
  * @Date         : 2019-12-20 23:21:34
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 14:14:39
+ * @LastEditTime : 2019-12-21 15:01:20
  * @Description  : Edit it for yourself
  * @ContactMe    : siir_52721@qq.com
  */
@@ -20,7 +20,7 @@ import History from "./Children/history.jsx";
 import Services from "./Children/services.jsx";
 import Location from "./Children/location.jsx";
 
-export const About = () => (
+const About = () => (
   <Template>
     <section className="about">
       <AboutMenu></AboutMenu>
@@ -31,3 +31,5 @@ export const About = () => (
     </section>
   </Template>
 );
+
+export default About;

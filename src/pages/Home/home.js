@@ -5,13 +5,14 @@
  * @SchoolStatus : 2016
  * @Date         : 2019-12-21 11:32:21
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 14:20:06
+ * @LastEditTime : 2019-12-21 15:36:57
  * @Description  : Edit it for yourself
  * @ContactMe    : siir_52721@qq.com
  */
 
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../static/css/pages.css"
 
 const Home = () => (
   <section className="home">
