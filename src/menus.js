@@ -1,46 +1,66 @@
 /*
- * @Author: your name
+ * @Author: fatewang
+ * @Github: https://github.com/Burning-Shadow
+ * @Major: Software Engineering
+ * @SchoolStatus: 2016
  * @Date: 2019-12-20 22:27:11
- * @LastEditTime: 2019-12-20 22:27:15
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: \react-router-dom_practice\src\menus.js
+ * @LastEditors  : fatewang
+ * @LastEditTime : 2019-12-21 12:32:06
+ * @Description: Edit it for yourself
+ * @ContactMe: siir_52721@qq.com
  */
-import React from 'react'
+
+import React from "react";
 // 引入NavLink 组件
 import { NavLink } from "react-router-dom";
-import './menus.css'
+import "./menus.css";
 
 // 高亮的样式，表示我们在哪个导航下
 const selectedStyle = {
-  backgroundColor: 'white',
-  color: 'slategray'
-}
+  backgroundColor: "white",
+  color: "slategray"
+};
 
 // navLink， activeStyle 点击高亮显示当前标签。
 export const MainMenu = () => (
-  <nav className='main-menu'>
-    <NavLink to='/'>首页</NavLink>
-    <NavLink to='/about' activeStyle = {selectedStyle}>关于我们</NavLink>
-    <NavLink to='/events' activeStyle = {selectedStyle}>企业事件</NavLink>
-    <NavLink to='/products' activeStyle = {selectedStyle}>公司产品</NavLink>
-    <NavLink to='/contact' activeStyle = {selectedStyle}>联系我们</NavLink>
+  <nav className="main-menu">
+    <NavLink to="/">首页</NavLink>
+    <NavLink to="/about" activeStyle={selectedStyle}>
+      关于我们
+    </NavLink>
+    <NavLink to="/events" activeStyle={selectedStyle}>
+      企业事件
+    </NavLink>
+    <NavLink to="/products" activeStyle={selectedStyle}>
+      公司产品
+    </NavLink>
+    <NavLink to="/contact" activeStyle={selectedStyle}>
+      联系我们
+    </NavLink>
   </nav>
-)
+);
 
 export const AboutMenu = () => (
   <ul className="about-menu">
     <li>
-      <NavLink to='/about' exact activeStyle ={selectedStyle}>公司简介</NavLink>
+      <NavLink to="/about" exact activeStyle={selectedStyle}>
+        公司简介
+      </NavLink>
     </li>
     <li>
-      <NavLink to='/about/history' activeStyle ={selectedStyle}>公司历史</NavLink>
+      <NavLink to="/about/history" activeStyle={selectedStyle}>
+        公司历史
+      </NavLink>
     </li>
     <li>
-      <NavLink to='/about/services' activeStyle ={selectedStyle}>公司服务</NavLink>
+      <NavLink to="/about/services" activeStyle={selectedStyle}>
+        公司服务
+      </NavLink>
     </li>
     <li>
-      <NavLink to='/about/location' activeStyle ={selectedStyle}>企业位置</NavLink>
+      <NavLink to="/about/location" activeStyle={selectedStyle}>
+        企业位置
+      </NavLink>
     </li>
   </ul>
-)
+);
