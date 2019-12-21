@@ -1,13 +1,13 @@
 /*
- * @Author: fatewang
- * @Github: https://github.com/Burning-Shadow
- * @Major: Software Engineering
- * @SchoolStatus: 2016
- * @Date: 2019-12-20 22:27:11
+ * @Author       : fatewang
+ * @Github       : https://github.com/Burning-Shadow
+ * @Major        : Software Engineering
+ * @SchoolStatus : 2016
+ * @Date         : 2019-12-20 22:27:11
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 12:32:06
- * @Description: Edit it for yourself
- * @ContactMe: siir_52721@qq.com
+ * @LastEditTime : 2019-12-21 14:19:42
+ * @Description  : Edit it for yourself
+ * @ContactMe    : siir_52721@qq.com
  */
 
 import React from "react";

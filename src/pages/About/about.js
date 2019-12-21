@@ -1,11 +1,15 @@
 /*
- * @Author: your name
- * @Date: 2019-12-20 23:21:34
- * @LastEditTime : 2019-12-21 11:37:19
- * @LastEditors  : Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \react-router-dom_practice\src\pages\About\about.js
+ * @Author       : fatewang
+ * @Github       : https://github.com/Burning-Shadow
+ * @Major        : Software Engineering
+ * @SchoolStatus : 2016
+ * @Date         : 2019-12-20 23:21:34
+ * @LastEditors  : fatewang
+ * @LastEditTime : 2019-12-21 14:14:39
+ * @Description  : Edit it for yourself
+ * @ContactMe    : siir_52721@qq.com
  */
+
 import React from "react";
 import { Route } from "react-router-dom";
 import { Template } from "../../template";

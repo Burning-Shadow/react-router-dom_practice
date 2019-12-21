@@ -1,11 +1,15 @@
 /*
- * @Author: your name
- * @Date: 2019-12-21 11:43:04
- * @LastEditTime: 2019-12-21 11:43:34
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: \react-router-dom_practice\src\pages\Contact\contact.js
+ * @Author       : fatewang
+ * @Github       : https://github.com/Burning-Shadow
+ * @Major        : Software Engineering
+ * @SchoolStatus : 2016
+ * @Date         : 2019-12-21 11:43:04
+ * @LastEditors  : fatewang
+ * @LastEditTime : 2019-12-21 14:14:23
+ * @Description  : Edit it for yourself
+ * @ContactMe    : siir_52721@qq.com
  */
+
 import React from "react";
 import { Template } from "../../template";
 
