@@ -5,13 +5,13 @@
  * @SchoolStatus : 2016
  * @Date         : 2019-12-20 21:21:21
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 16:57:19
+ * @LastEditTime : 2019-12-22 10:57:44
  * @Description  : Edit it for yourself
  * @ContactMe    : siir_52721@qq.com
  */
 
 import React from "react";
-import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
 // 引入展示组件
 // import {
@@ -34,7 +34,7 @@ import NotFound404 from './pages/NotFound/notfound'
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <div>
         <Switch>
           <Route path="/" exact component={Home} />
@@ -47,7 +47,7 @@ function App() {
           <Route component={NotFound404} />
         </Switch>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 

@@ -5,13 +5,13 @@
  * @SchoolStatus : 2016
  * @Date         : 2019-12-21 14:38:22
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 14:41:06
+ * @LastEditTime : 2019-12-22 10:50:06
  * @Description  : Edit it for yourself
  * @ContactMe    : siir_52721@qq.com
  */
 import React from 'react'
 import { NavLink } from "react-router-dom";
-import "../menus.css";
+import "./menus.css";
 
 const selectedStyle = {
   backgroundColor: "white",

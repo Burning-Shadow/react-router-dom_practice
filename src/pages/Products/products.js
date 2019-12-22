@@ -5,14 +5,14 @@
  * @SchoolStatus : 2016
  * @Date         : 2019-12-21 11:41:37
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 14:14:30
+ * @LastEditTime : 2019-12-22 11:02:06
  * @Description  : Edit it for yourself
  * @ContactMe    : siir_52721@qq.com
  */
 
 import React from "react";
 import { Link } from "react-router-dom";
-import { Template } from "../../template";
+import Template from "../Components/template";
 
 const Products = () => (
   <Template>

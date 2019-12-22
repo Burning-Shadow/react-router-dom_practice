@@ -5,13 +5,13 @@
  * @SchoolStatus : 2016
  * @Date         : 2019-12-21 11:43:04
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 14:14:23
+ * @LastEditTime : 2019-12-22 11:00:53
  * @Description  : Edit it for yourself
  * @ContactMe    : siir_52721@qq.com
  */
 
 import React from "react";
-import { Template } from "../../template";
+import Template from "../Components/template";
 
 const Contact = () => (
   <Template>
