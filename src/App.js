@@ -5,7 +5,7 @@
  * @SchoolStatus : 2016
  * @Date         : 2019-12-20 21:21:21
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 15:03:13
+ * @LastEditTime : 2019-12-21 16:57:19
  * @Description  : Edit it for yourself
  * @ContactMe    : siir_52721@qq.com
  */
@@ -31,7 +31,6 @@ import Products from './pages/Products/products'
 import Events from './pages/Events/events'
 import Details from './pages/Details/details'
 import NotFound404 from './pages/NotFound/notfound'
-
 
 function App() {
   return (

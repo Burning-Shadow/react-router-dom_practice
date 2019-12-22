@@ -5,15 +5,17 @@
  * @SchoolStatus : 2016
  * @Date         : 2019-12-20 23:21:34
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 15:01:20
+ * @LastEditTime : 2019-12-21 17:00:26
  * @Description  : Edit it for yourself
  * @ContactMe    : siir_52721@qq.com
  */
 
 import React from "react";
 import { Route } from "react-router-dom";
-import { Template } from "../../template";
-import { AboutMenu } from "../../menus";
+// import { Template } from "../../template";
+import  Template  from "../Components/template";
+// import { AboutMenu } from "../../menus";
+import AboutMenu from '../Components/AboutMenu/aboutmenu'
 
 import Company from "./Children/company.jsx";
 import History from "./Children/history.jsx";

@@ -5,10 +5,11 @@
  * @SchoolStatus : 2016
  * @Date         : 2019-12-21 14:53:37
  * @LastEditors  : fatewang
- * @LastEditTime : 2019-12-21 16:30:50
+ * @LastEditTime : 2019-12-21 16:57:06
  * @Description  : Edit it for yourself
  * @ContactMe    : siir_52721@qq.com
  */
+
 import React from 'react'
 
 const Details = props => {
