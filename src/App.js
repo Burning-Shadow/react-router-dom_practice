@@ -13,17 +13,6 @@
 import React from "react";
 import { HashRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
-// 引入展示组件
-// import {
-//   About,
-//   Contact,
-//   Home,
-//   Products,
-//   Events,
-//   NotFound404,
-//   Details
-// } from "./pages";
-
 import About from './pages/About/about'
 import Contact from './pages/Contact/contact'
 import Home from './pages/Home/home'
@@ -42,8 +31,8 @@ function App() {
           <Route path="/events" component={Events} />
           <Route path="/products" component={Products} />
           <Route path="/contact" component={Contact} />
-          <Redirect from="/history" to="about/history"></Redirect>
-          <Route path="/details/:type" component={Details}></Route>
+          <Redirect from="/history" to="about/history" />
+          <Route path="/details/:type" component={Details} />
           <Route component={NotFound404} />
         </Switch>
       </div>
